@@ -2,6 +2,13 @@
     --sections-color: #000080;
 }
 
-*{
+body {
     background-color: thistle;
+}
+
+header {
+    background-color: mistyrose;
+    padding: 20px;
+    font-family: monospace;
+    color: purple;
 }
