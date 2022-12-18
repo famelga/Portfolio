@@ -55,3 +55,9 @@ h2 {
     display: inline-block
 }
 
+footer {
+    font-size: 15px;
+    font-family: serif;
+    text-align: center;
+    background-color: thistle;
+}
