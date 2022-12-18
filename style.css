@@ -26,3 +26,32 @@ nav {
     justify-content: flex-end;
 }
 
+main {
+    margin: auto;
+    padding: 50px;
+    height: 300px;
+}
+
+h2 {
+    font-size: 25px;
+    color: var(--sections-color);
+}
+
+.Me {
+    display: inline-block;
+    
+}
+
+.Me img {
+    display: block;
+    margin: 10px;
+    max-width: 150px;
+}
+.sections {
+    display: inline-block;
+}
+
+.contact {
+    display: inline-block
+}
+
