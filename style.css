@@ -1,5 +1,5 @@
 :root {
-    --sections-color: #000080;
+    --sections-color: purple;
 }
 
 body {
@@ -10,5 +10,5 @@ header {
     background-color: mistyrose;
     padding: 20px;
     font-family: monospace;
-    color: purple;
+    color: var(--sections-color);
 }
