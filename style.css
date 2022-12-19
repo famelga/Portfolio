@@ -40,7 +40,6 @@ main {
 .Me h2, .contact h2 {
     font-size: 25px;
     color: var(--sections-color);
-    align-content: center;
     position: relative;
     left: 350px;
 }
@@ -124,6 +123,7 @@ h3{
     padding: 30px;
     z-index: 0;
 }
+
 .contact {
     padding: 20px;
     background-color: mistyrose;
@@ -134,13 +134,15 @@ h3{
     text-align: center;
     margin: 5px;
 }
-footer {
-    font-size: 15px;
-    font-family: serif;
-    background-color: thistle;
-    position: fixed;
-    bottom: 0;
+
+@media screen and (max-width: 669px) {
+    .body {
+    width: 75%;
+    }
+}
+
+@media screen and (max-width: 741px) {
+    .body {
     width: 100%;
-    text-align: center;
-    height: 30px;
+    }
 }
