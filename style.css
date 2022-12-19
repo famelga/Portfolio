@@ -30,29 +30,40 @@ main {
     margin: auto;
     padding: 50px;
     height: 300px;
+    width: 50%;
 }
 
 h2 {
     font-size: 25px;
     color: var(--sections-color);
+    align-content: center;
+    position: relative;
+    left: 350px;
 }
 
 .Me {
-    display: inline-block;
-    
 }
 
 .Me img {
     display: block;
-    margin: 10px;
+    margin: 40px;
     max-width: 150px;
 }
 .sections {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
 }
 
+.sections img {
+    max-width: 300px;
+    display: flex;
+}
+
+h3{
+    position: relative;
+    left: 10%;
+}
 .contact {
-    display: inline-block
 }
 
 footer {
