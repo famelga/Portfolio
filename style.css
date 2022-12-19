@@ -49,6 +49,7 @@ main {
     border-bottom: 3px solid var(--sections-color);
     padding: 40px;
     background-color:mistyrose;
+    margin: 10px;
 }
 
 .Me img {
@@ -87,7 +88,10 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    z-index: -1;
+    position: relative;
+    bottom: 180px;
+    left: 300px;
+
 }
 
 .pic2 {
@@ -97,7 +101,9 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    z-index: -1;
+    position: relative;
+    right: 100px;
+    top: 200px;
 }
 
 .pic3 {
@@ -107,7 +113,9 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    z-index: -1;
+    position: relative;
+    right: 550px;
+    top: 400px;
 }
 
 h3{
