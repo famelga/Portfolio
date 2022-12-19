@@ -44,12 +44,14 @@ main {
 .Me {
     border-bottom: 3px solid var(--sections-color);
     padding: 20px;
+    background-color:mistyrose;
 }
 
 .Me img {
     display: block;
-    margin: 40px;
     max-width: 150px;
+    position: relative;
+    left: 5%;
 }
 
 .Me p {
@@ -61,6 +63,8 @@ main {
     justify-content: center;
     border-bottom: 3px solid var(--sections-color);
     padding: 20px;
+    margin: 10px;
+    background-color: mistyrose;
 }
 
 .sections h2 {
@@ -83,6 +87,8 @@ h3{
 }
 .contact {
     padding: 20px;
+    background-color: mistyrose;
+    margin: 10px;
 }
 
 .contact p {
