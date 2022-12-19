@@ -26,8 +26,8 @@ nav {
     justify-content: flex-end;
 }
 
-nav:hover::after {
-    color: thistle;
+nav ul a:hover {
+    color: mistyrose;
     background-color: var(--sections-color);
 }
 
@@ -48,7 +48,7 @@ main {
 
 .Me {
     border-bottom: 3px solid var(--sections-color);
-    padding: 20px;
+    padding: 40px;
     background-color:mistyrose;
 }
 
@@ -68,7 +68,7 @@ main {
     display: flex;
     justify-content: center;
     border-bottom: 3px solid var(--sections-color);
-    padding: 20px;
+    padding: 300px;
     margin: 10px;
     background-color: mistyrose;
 }
@@ -76,10 +76,7 @@ main {
 .sections h2 {
     font-size: 25px;
     color: var(--sections-color);
-    align-items: center;
-    margin: 20px;
-    position: relative;
-    left: 623px;
+    float: ;
 }
 .sections img {
     max-width: 300px;
