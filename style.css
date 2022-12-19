@@ -39,11 +39,11 @@ main {
     width: 50%;
 }
 
-.Me h2, .contact h2 {
+h2 {
     font-size: 25px;
     color: var(--sections-color);
-    position: relative;
-    left: 350px;
+    width: 100%;
+    text-align: center;
 }
 
 .Me {
@@ -66,20 +66,11 @@ main {
 }
 
 .sections {
-    display: flex;
-    justify-content: center;
     border-bottom: 3px solid var(--sections-color);
     padding: 300px;
     margin: 10px;
     background-color: mistyrose;
-}
-
-.sections h2 {
-    font-size: 25px;
-    color: var(--sections-color);
-    position: relative;
-    bottom: 280px;
-    left: 670px;
+    display: flex;
 }
 
 .pic1 {
@@ -92,7 +83,6 @@ main {
     position: relative;
     bottom: 180px;
     left: 300px;
-
 }
 
 .pic2 {
@@ -120,10 +110,7 @@ main {
 }
 
 h3{
-    position: relative;
-    left: 50%;
-    padding: 30px;
-    z-index: 0;
+
 }
 
 .contact {
