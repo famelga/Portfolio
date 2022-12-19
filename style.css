@@ -33,7 +33,7 @@ main {
     width: 50%;
 }
 
-h2 {
+.Me h2, .contact h2 {
     font-size: 25px;
     color: var(--sections-color);
     align-content: center;
@@ -42,6 +42,8 @@ h2 {
 }
 
 .Me {
+    border-bottom: 3px solid var(--sections-color);
+    padding: 20px;
 }
 
 .Me img {
@@ -49,11 +51,26 @@ h2 {
     margin: 40px;
     max-width: 150px;
 }
+
+.Me p {
+    display: flex;
+}
+
 .sections {
     display: flex;
     justify-content: center;
+    border-bottom: 3px solid var(--sections-color);
+    padding: 20px;
 }
 
+.sections h2 {
+    font-size: 25px;
+    color: var(--sections-color);
+    align-items: center;
+    margin: 20px;
+    position: relative;
+    left: 623px;
+}
 .sections img {
     max-width: 300px;
     display: flex;
@@ -62,13 +79,20 @@ h2 {
 h3{
     position: relative;
     left: 10%;
+    padding: 30px;
 }
 .contact {
+    padding: 20px;
 }
 
+.contact p {
+    text-align: center;
+    margin: 5px;
+}
 footer {
     font-size: 15px;
     font-family: serif;
-    text-align: center;
+    
     background-color: thistle;
+    bottom: 0;
 }
