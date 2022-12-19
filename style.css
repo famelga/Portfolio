@@ -8,10 +8,12 @@ body {
 
 header {
     background-color: mistyrose;
-    padding: 20px;
+    padding: 15px;
     font-family: monospace;
     color: var(--sections-color);
     display: flex;
+    position: fixed;
+    width: 100%;
 }
 
 h1 {
@@ -22,7 +24,7 @@ h1 {
 nav {
     font-size: 23px;
     margin: 13.5px;
-    justify-content: flex-start;
+    padding-left: 90px;
 }
 
 nav ul a:hover {
@@ -32,7 +34,7 @@ nav ul a:hover {
 
 main {
     margin: auto;
-    padding: 50px;
+    padding: 120px;
     height: 300px;
     width: 50%;
 }
