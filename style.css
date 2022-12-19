@@ -36,16 +36,14 @@ main {
     margin: auto;
     padding: 120px;
     height: 300px;
-    width: 1000px
 }
 
 h2 {
     font-size: 25px;
     color: var(--sections-color);
-    width: 100%;
     text-align: center;
-    position: relative;
     z-index: 2;
+    padding-bottom: 10px;
 }
 
 .Me {
@@ -53,6 +51,7 @@ h2 {
     padding: 40px;
     background-color:mistyrose;
     margin: 10px;
+    height: 300px;
 }
 
 .Me img {
@@ -69,73 +68,47 @@ h2 {
 
 .sections {
     border-bottom: 3px solid var(--sections-color);
-    padding: 300px;
-    margin: 10px;
+    padding: 40px;
     background-color: mistyrose;
-    display: flex;
+    height: 500px;
 }
 
 .pic1 {
-    max-width: 300px;
+    max-width: 400px;
     border-color: var(--sections-color);
     border-style: solid;
-    display: flex;
-    justify-content: center;
     position: relative;
-    bottom: 180px;
-    right: 200px;
+    float: left;
 }
 
 .pic2 {
     max-width: 300px;
     border-color: var(--sections-color);
     border-style: solid;
-    display: flex;
-    justify-content: center;
+    float: right;
     position: relative;
-    right: 505px;
-    top: 200px;
-}
-
-.pic3 {
-    max-width: 300px;
-    border-color: var(--sections-color);
-    border-style: solid;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    right: 800px;
-    top: 400px;
 }
 
 .c1 {
     z-index: 1;
     font-size: 20px;
-    position: relative;
-    align-content: center;
+    padding: 20px;
+    float: left;
     color: var(--sections-color);
 }
 
 .c2 {
     z-index: 1;
     font-size: 20px;
-    position: relative;
-    align-content: center;
-    color: var(--sections-color);
-}
-
-.c3 {
-    z-index: 1;
-    font-size: 20px;
-    position: relative;
-    align-content: center;
+    float: right;
+    padding: 20px;
     color: var(--sections-color);
 }
 
 .sections h2 {
-    position: relative;
-    bottom: 280px;
+    text-align: center;
     z-index: 2;
+    padding-bottom: 20px;
 }
 
 .contact {
