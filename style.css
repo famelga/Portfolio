@@ -26,6 +26,11 @@ nav {
     justify-content: flex-end;
 }
 
+nav:hover::after {
+    color: thistle;
+    background-color: var(--sections-color);
+}
+
 main {
     margin: auto;
     padding: 50px;
@@ -48,14 +53,15 @@ main {
 }
 
 .Me img {
-    display: block;
     max-width: 150px;
-    position: relative;
-    left: 5%;
+    float: left;
+    padding: 10px;
 }
 
 .Me p {
     display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
 }
 
 .sections {
