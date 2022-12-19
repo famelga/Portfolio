@@ -36,7 +36,7 @@ main {
     margin: auto;
     padding: 120px;
     height: 300px;
-    width: 50%;
+    width: 1000px
 }
 
 h2 {
@@ -81,7 +81,6 @@ h2 {
     border-style: solid;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     position: relative;
     bottom: 180px;
     right: 200px;
@@ -93,7 +92,6 @@ h2 {
     border-style: solid;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     position: relative;
     right: 505px;
     top: 200px;
@@ -105,7 +103,6 @@ h2 {
     border-style: solid;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     position: relative;
     right: 800px;
     top: 400px;
@@ -114,27 +111,24 @@ h2 {
 .c1 {
     z-index: 1;
     font-size: 20px;
-    position: absolute;
-    left: 47%;
-    top: 85%;
+    position: relative;
+    align-content: center;
     color: var(--sections-color);
 }
 
 .c2 {
     z-index: 1;
     font-size: 20px;
-    position: absolute;
-    left: 47%;
-    top: 110%;
+    position: relative;
+    align-content: center;
     color: var(--sections-color);
 }
 
 .c3 {
     z-index: 1;
     font-size: 20px;
-    position: absolute;
-    left: 47%;
-    top: 130%;
+    position: relative;
+    align-content: center;
     color: var(--sections-color);
 }
 
