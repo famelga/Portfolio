@@ -33,7 +33,7 @@ Ultimately, I learned the importance of divs in relation to flexboxes.
 Initially, I did not have any divs in my html code since I believed divs to be irrelevant due to lack of semantics and accessability.
 
 
-``<section id="Work" class="sections">
+```<section id="Work" class="sections">
                 <h2>Work</h2>
                     <p class="c1">Landing Page</p>
                     <a href="https://famelga.github.io/Landing-Page/" target="_blank"><img src="./LandingPage.png"
