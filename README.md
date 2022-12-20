@@ -102,18 +102,9 @@ Visit website.
 
 ## Learning Points 
 
+Through the creation on my portfolio, I learned the importance of wireframes in relation to coding html. Labeling tags on wireframes helps with organization.
 
-This is a good place to Explain what you Learned by creating this application.
-This is a great way to remind about all of the Complex Skills you now have.
-If the user is less experienced than you:
-They will be impressed by what you can do!
-
-If the user is more experienced than you:
-They will be impressed by what you can do!
-
-Remember, it is easy to forget exactly how Valuable and Impressive your skills are, as well as How Much You’ve Learned!
-So quantify that here!
-
+Prior to this project, I did not recognize the impact div tags have on the formatting of a webpage. I now understand that creating sections of code in html using divs, allows for the implementation of flexboxes in css.
 
 ## Author Info
 
