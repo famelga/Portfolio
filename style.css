@@ -9,11 +9,11 @@ body {
 header {
     background-color: mistyrose;
     padding: 15px;
+    width: 100%;
     font-family: monospace;
     color: var(--sections-color);
     display: flex;
     position: fixed;
-    width: 100%;
 }
 
 h1 {
@@ -24,7 +24,8 @@ h1 {
 nav {
     font-size: 23px;
     margin: 13.5px;
-    padding-left: 90px;
+    padding-left: 400px;
+    z-index: 0;
 }
 
 nav ul a:hover {
@@ -35,7 +36,6 @@ nav ul a:hover {
 main {
     margin: auto;
     padding: 120px;
-    height: 300px;
 }
 
 h2 {
@@ -66,27 +66,35 @@ h2 {
     margin: 20px;
 }
 
+.work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.work-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .sections {
     border-bottom: 3px solid var(--sections-color);
     padding: 40px;
     background-color: mistyrose;
-    height: 500px;
+    min-height: 550px;
 }
 
 .pic1 {
     max-width: 400px;
     border-color: var(--sections-color);
     border-style: solid;
-    position: relative;
-    float: left;
 }
 
 .pic2 {
     max-width: 300px;
     border-color: var(--sections-color);
     border-style: solid;
-    float: right;
-    position: relative;
 }
 
 .c1 {
@@ -120,4 +128,14 @@ h2 {
 .contact p {
     text-align: center;
     margin: 5px;
+}
+
+@media screen and (max-width: 1100px) {
+    .work {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .work-content {
+        justify-content: center;
+    }
 }
