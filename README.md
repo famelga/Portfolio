@@ -89,8 +89,6 @@ This change led to the addition of "display: flex" and flexbox properties to the
 }
 ```
 
-No longer targeting the element on the page with the class of 'header' but instead the css selector targeting the 'header' element 
-
 ## Usage 
 
 Visit website.
