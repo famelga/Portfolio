@@ -28,74 +28,68 @@ Ultimately, I learned the importance of divs in relation to flexboxes.
 
 ![Portfolio Homepage gif](./Portfolio%20gif.gif)
 
-## Code Refactor Example
+## Portfolio Example
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Initially, I did not have any divs in my html code since I believed divs to be irrelevant due to lack of semantics and accessability.
 
 
-```html
-<div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+``<section id="Work" class="sections">
+                <h2>Work</h2>
+                    <p class="c1">Landing Page</p>
+                    <a href="https://famelga.github.io/Landing-Page/" target="_blank"><img src="./LandingPage.png"
+                            alt="Yellow website homepage with image of a nebula" class="pic1"></a>
+                    <p class="c2">Code Refactor</p>
+                    <a href="https://famelga.github.io/code-refactor-site/" target="_blank"><img src="./Horiseon.png"
+                            alt="Horiseon blue and white homepage" class="pic2"></a>
+                    <p class="c2">CSS Cheatsheet</p>
+                    <a href="https://famelga.github.io/Mini-project-2/" target="_blank"><img src="./Cheatsheet.png"
+                            alt="Gray website of css cheatsheet snippets" class="pic2"></a>
+        </section>
 ```
 
-Converting the above non-semantic div with the class of 'header' to an appropriate [<header> semantic element](https://www.w3schools.com/html/html5_semantic_elements.asp). 
+Adding the below div tags with classes created sections for Flexboxes to be abpplied to in css. (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
 
 ```html
-<header>
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+<section id="Work" class="sections">
+            <div class="Projh2">
+                <h2>Work</h2>
+            </div>
+            <div class="work">
+                <div class="work-content">
+                    <p class="c1">Landing Page</p>
+                    <a href="https://famelga.github.io/Landing-Page/" target="_blank"><img src="./LandingPage.png"
+                            alt="Yellow website homepage with image of a nebula" class="pic1"></a>
+                </div>
+                <div class="work-content">
+                    <p class="c2">Code Refactor</p>
+                    <a href="https://famelga.github.io/code-refactor-site/" target="_blank"><img src="./Horiseon.png"
+                            alt="Horiseon blue and white homepage" class="pic2"></a>
+                    <p class="c2">CSS Cheatsheet</p>
+                    <a href="https://famelga.github.io/Mini-project-2/" target="_blank"><img src="./Cheatsheet.png"
+                            alt="Gray website of css cheatsheet snippets" class="pic2"></a>
+                </div>
+            </div>
+        </section>
 
 ```
 
-This change require some additional modification to the CSS selector: 
+This change led to the addition of "display: flex" and flexbox properties to the classes of the added divs.  
 
 ```css
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+.work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.work-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 ```
 
 No longer targeting the element on the page with the class of 'header' but instead the css selector targeting the 'header' element 
-
-```css
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-```
 
 ## Usage 
 
