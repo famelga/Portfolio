@@ -23,7 +23,7 @@ At a minimum, your project README needs a title and a short description explaini
 Lastly, if your project is deployed, include a link to the deployed application here.
 
 
-![Portfolio Homepage gif](./Portfolio%20gif.gif
+![Portfolio Homepage gif](./Portfolio%20gif.gif)
 
 ## Code Refactor Example
 
@@ -98,9 +98,9 @@ header {
 
 Visit website.
 
-```md
-![Portfolio Homepage](./Homepage.png)
-```
+
+![Portfolio Homepage](./Homepage.jpg)
+
 
 
 ## Learning Points 
@@ -123,9 +123,9 @@ So quantify that here!
 ### Fayven Amelga 
 
 
-* [Portfolio](https://youtu.be/bHX54GCrDB4)
-* [LinkedIn](https://youtu.be/bHX54GCrDB4)
-* [Github](https://youtu.be/bHX54GCrDB4)
+* [Portfolio](https://famelga.github.io/Portfolio/)
+* [LinkedIn](https://www.linkedin.com/in/fayven-amelga-b09b17b6/)
+* [Github](https://github.com/famelga)
 
 
 
