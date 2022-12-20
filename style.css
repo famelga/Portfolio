@@ -66,6 +66,8 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
+    line-height: 1.5;
+    color: var(--sections-color);
 }
 
 .work {
