@@ -2,6 +2,10 @@
     --sections-color: purple;
 }
 
+html {
+    scroll-padding-top: 50px;
+}
+
 body {
     background-color: thistle;
 }
