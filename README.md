@@ -49,7 +49,8 @@ Initially, I did not have any divs in my html code since I believed divs to be i
 
 Adding the below div tags with classes created sections for Flexboxes to be abpplied to in css. (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
 
-```html
+```
+html
 <section id="Work" class="sections">
             <div class="Projh2">
                 <h2>Work</h2>
@@ -70,7 +71,6 @@ Adding the below div tags with classes created sections for Flexboxes to be abpp
                 </div>
             </div>
         </section>
-
 ```
 
 This change led to the addition of "display: flex" and flexbox properties to the classes of the added divs.  
@@ -128,11 +128,9 @@ So quantify that here!
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+Fayven Amelga
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+MDN Web Docs - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox 
 
 
 ## License
